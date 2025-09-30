@@ -3,3 +3,5 @@ Implementation of the paper "Towards Efficient Earth Surface Anomaly Detection f
 
 ## Sen2ESA
 SEN2ESA is a large-scale surface anomaly dataset constructed from Sentinel-2 imagery. It consists of images from 135 surface anomaly events worldwide, which are categorized into seven classes.
+![image](Sen2ESA_new.png)
+![image](dataset.jpg)
