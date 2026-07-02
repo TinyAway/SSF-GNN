@@ -7,7 +7,7 @@ S2MHD is a large-scale multi-hazard dataset constructed from Sentinel-2 imagery.
 ![image](dataset.jpg)
 
 ## Requirements
-torch==2.6.0+cu126
-torch-geometric==2.6.1
-GDAL=3.10.2
-timm==1.0.21
+torch==2.6.0+cu126  
+torch-geometric==2.6.1  
+GDAL=3.10.2  
+timm==1.0.21  
