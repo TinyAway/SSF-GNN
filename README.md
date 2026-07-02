@@ -2,6 +2,12 @@
 Implementation of the paper "Towards Efficient Multi-hazard Detection from Single Satellite Imagery via Spectral-Semantic Graph Reasoning "
 
 ## S2MHD
-S2MHD is a large-scale multi-hazard dataset constructed from Sentinel-2 imagery. It consists of images from 169 disaster events worldwide, which are categorized into seven classes. The dataset is coming soon.
+S2MHD is a large-scale multi-hazard dataset constructed from Sentinel-2 imagery. It consists of images from 169 disaster events worldwide, which are categorized into seven classes. The dataset is available at [Sen2MHD](https://pan.baidu.com/s/1Rvr5jYEcW491OiZVjqe5qg?pwd=ppit).
 ![image](Sen2MHD.jpg)
 ![image](dataset.jpg)
+
+## Requirements
+torch==2.6.0+cu126
+torch-geometric==2.6.1
+GDAL=3.10.2
+timm==1.0.21
