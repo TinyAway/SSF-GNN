@@ -36,9 +36,9 @@ torch-geometric==2.6.1
 GDAL=3.10.2  
 timm==1.0.21  
 
-## Train the model
+## Training
 python train.py
 
-## Test the model
+## Testing
 python test.py
 
