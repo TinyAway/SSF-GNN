@@ -6,8 +6,33 @@ S2MHD is a large-scale multi-hazard dataset constructed from Sentinel-2 imagery.
 ![image](Sen2MHD.jpg)
 ![image](dataset.jpg)
 
+## Project Structure
+```text
+Project/
+├── README.md
+├── requirements.txt
+├── train.py
+├── test.py
+├── train/
+│   ├── Algalbloom/
+│   │   ├── 1.tif
+│   │   ├── 2.tif
+│   │   └── ...
+│   ├── Flood/
+│   │   ├── 1.tif
+│   │   └── ...
+│   ├── Normal/
+│   │   └── ...
+│   └── Oilspill/
+│       └── ...
+└── test/
+    ├── flood/
+    └── wildfire/
+    └── ...
+```
 ## Requirements
 torch==2.6.0+cu126  
 torch-geometric==2.6.1  
 GDAL=3.10.2  
 timm==1.0.21  
+
